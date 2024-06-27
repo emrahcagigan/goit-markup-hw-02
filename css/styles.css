@@ -1,0 +1,98 @@
+.header-style {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+.header-a-title {
+  color: #2e2f42;
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.header-a-web {
+  color: #4d5ae5;
+}
+
+.header-a {
+  color: #2e2f42;
+  font-weight: 700;
+}
+
+.header-b {
+  color: #2e2f42;
+}
+
+address {
+  font-style: normal;
+  color: #2e2f42;
+}
+
+.section-01 {
+  background-color: #2e2f42;
+  font-family: roboto;
+  font-size: 56px;
+}
+
+.section-01-maintitle {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-01-button {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  background-color: #4d5ae5;
+  color: white;
+}
+
+.section-02 {
+    background-color: #F4F4FD;
+    font-family: "roboto", sans-serif;
+}
+
+.section-02-title {
+    text-align: center;
+    color: #2e2f42;
+    font-size: 36px;
+}
+
+.section-02 h3 {
+    font-weight: 500;
+}
+
+.section-02-li {
+    background-color: white;
+}
+
+.section-03 {
+    font-family: "roboto", sans-serif;
+}
+
+.section-03-title {
+    text-align: center;
+    color: #2e2f42;
+    font-size: 36px;
+}
+
+.section-03 h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer {
+    color: #F4F4FD;
+    background-color: #2e2f42;
+}
+
+.footer-a-title {
+    color: #F4F4FD;
+}
+
+footer p {
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F4F4FD;
+}
