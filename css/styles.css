@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
   color: #434455;
   font-size: 16px;
-  font-family: "roboto", sans-serif;
+  font-family: "raleway", sans-serif;
   line-height: 1.5;
 }
 
@@ -31,8 +31,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-a:hover,
-.header-a:focus {
+.header-nav:hover {
+  color: #404bbf;
+}
+
+.header-nav:focus {
   color: #404bbf;
 }
 
@@ -184,7 +187,8 @@ footer {
   font-weight: 700;
   font-size: 18px;
 }
-.footer-a-title {
+.footer-logo {
+  font-family: "raleway";
   color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
