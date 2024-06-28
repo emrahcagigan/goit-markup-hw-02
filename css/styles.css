@@ -32,7 +32,7 @@ body {
 }
 
 .header-a:hover,
-:focus {
+.header-a:focus {
   color: #404bbf;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .header-b:hover,
-:focus {
+.header-b:focus {
   color: #404bbf;
 }
 
@@ -60,7 +60,7 @@ body {
   font-family: roboto;
 }
 
-.section-one .one-maintitle {
+.one-maintitle {
   color: white;
   font-size: 56px;
   font-weight: 700;
@@ -69,9 +69,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.section-one .one-button {
+.one-button {
   cursor: pointer;
-  font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   background-color: #4d5ae5;
@@ -81,31 +80,64 @@ body {
 }
 
 .one-button:hover,
-:focus {
+.one-button:focus {
   background-color: #404bbf;
 }
 
-.section-two {
+.two-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #f4f4fd;
 }
 
-.section-two .two-list {
-  background-color: white;
-}
-
-.section-two h2 {
-  text-align: center;
-  color: #2e2f42;
-  font-size: 36px;
-  font-weight: 700;
+.two-list p {
+  letter-spacing: 0.02em;
 }
 
 .section-three {
   color: #2e2f42;
+  background-color: #f4f4fd;
 }
 
-.section-three .three-title {
+.section-three .three-list {
+  background-color: white;
+}
+
+.section-three h2 {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.three-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.three-h3title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-three p {
+  letter-spacing: 0, 02em;
+  color: #434455;
+}
+
+.section-four {
+  color: #2e2f42;
+}
+
+.section-four .four-title {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -115,18 +147,17 @@ body {
   text-transform: capitalize;
 }
 
-.section-two h3,
-.section-three .three-h3title {
+.section-four .three-h3title {
   font-weight: 500;
   font-size: 20;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.section-two p,
-.section-three p {
+.four-paragraph {
   letter-spacing: 0.02;
+  color: #434455;
 }
 
 footer {
@@ -145,14 +176,18 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.section-footer a {
+  text-transform: uppercase;
+}
+
 .span-logo-footer {
   font-family: "raleway";
   color: #f4f4fd;
-  text-transform: uppercase;
 }
 
 footer p {
   font-size: 16px;
   color: #f4f4fd;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
