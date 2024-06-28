@@ -31,6 +31,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-a a {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .header-a:hover,
 .header-a:focus {
   color: #404bbf;
@@ -127,11 +133,14 @@ body {
 }
 
 .three-h3title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .three-paragraph {
+  letter-spacing: 0.02em;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -150,12 +159,18 @@ body {
   text-transform: capitalize;
 }
 
-.section-four .four-h3title {
+.section-four {
   font-weight: 500;
   font-size: 20;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.four-h3title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .four-paragraph {
@@ -188,8 +203,7 @@ footer {
   color: #f4f4fd;
 }
 
-footer p {
-  font-size: 16px;
+.footer-paragraph {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
