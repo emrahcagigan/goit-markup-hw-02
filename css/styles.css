@@ -1,8 +1,8 @@
 body {
   color: #434455;
+  font-size: 16px;
   font-family: "roboto", sans-serif;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
 }
 
 .header-a-title {
@@ -10,9 +10,9 @@ body {
   font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 3.333;
 }
+
 .header-a-web {
   color: #4d5ae5;
 }
@@ -43,21 +43,37 @@ address {
   font-size: 56px;
   font-weight: 700;
   text-align: center;
-  line-height: 60px;
+  line-height: 1.071;
 }
 
 .section-01-button {
+  cursor: pointer;
   font-family: "roboto", sans-serif;
   font-size: 12px;
-  font-weight: 400;
   background-color: #4d5ae5;
   color: white;
-  line-height: 24px;
-  letter-spacing: 4%;
+  line-height: 2;
 }
 
 .section-01-button:hover {
   background-color: #404bbf;
+}
+
+.section-02 {
+  font-family: "roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+
+.section-02-li {
+  background-color: white;
+}
+
+.section-02 h2 {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .section-03 {
@@ -72,8 +88,8 @@ address {
   font-weight: 700;
 }
 
+.section-02 h3,
 .section-03 h3 {
-  font-weight: 400;
   font-size: 20px;
   letter-spacing: 2%;
 }
@@ -91,6 +107,5 @@ footer {
 footer p {
   font-family: "roboto", sans-serif;
   font-size: 16px;
-  font-weight: 400;
   color: #f4f4fd;
 }
