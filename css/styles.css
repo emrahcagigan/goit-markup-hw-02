@@ -76,7 +76,7 @@ body {
   background-color: #4d5ae5;
   color: white;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
 }
 
 .one-button:hover,
@@ -92,8 +92,11 @@ body {
   color: #2e2f42;
 }
 
-.two-list p {
+.two-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .section-three {
@@ -101,11 +104,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.section-three .three-list {
-  background-color: white;
-}
-
-.section-three h2 {
+.three-title {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -113,6 +112,10 @@ body {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.section-three .three-list {
+  background-color: white;
 }
 
 .three-list {
@@ -128,9 +131,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-three p {
-  letter-spacing: 0, 02em;
-  color: #434455;
+.three-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .section-four {
@@ -147,7 +150,7 @@ body {
   text-transform: capitalize;
 }
 
-.section-four .three-h3title {
+.section-four .four-h3title {
   font-weight: 500;
   font-size: 20;
   line-height: 1.2;
@@ -156,7 +159,7 @@ body {
 }
 
 .four-paragraph {
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
