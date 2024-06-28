@@ -10,7 +10,7 @@ body {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -188,7 +188,7 @@ footer {
   font-size: 18px;
 }
 .footer-logo {
-  font-family: "raleway";
+  font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -198,8 +198,8 @@ footer {
   text-transform: uppercase;
 }
 
-.span-logo-footer {
-  font-family: "raleway";
+.footer-span {
+  font-family: 'Raleway';
   color: #f4f4fd;
 }
 
